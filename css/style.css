@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "stayRed-example";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/stayRad/Stay Rad - Demo.eot");
+  src: url("../fonts/stayRad/Stay Rad - Demo.eot?#iefix") format("embedded-opentype"), url("../fonts/stayRad/Stay Rad - Demo.woff") format("woff"), url("../fonts/stayRad/Stay Rad - Demo.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Hevetical-example";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Hevetical/Hevetical.eot");
+  src: url("../fonts/Hevetical/Hevetical.eot?#iefix") format("embedded-opentype"), url("../fonts/Hevetical/Hevetical.woff") format("woff"), url("../fonts/Hevetical/Hevetical.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "roboto-example";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/RobotoBold/RobotoBold.eot");
+  src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype"); }
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:after, *:before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: red;
+  font-size: 18px; }
+
+p {
+  font-family: "Hevetical-example", sans-serif;
+  font-size: 18px; }
