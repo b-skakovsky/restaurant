@@ -1,5 +1,8 @@
 @import "mixins";
 
 @include font-face("stayRed-example", "../fonts/stayRad/Stay Rad - Demo");
+
+
 @include font-face("Hevetical-example", "../fonts/Hevetical/Hevetical");
-@include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+@include font-face("HeveticalBold-example", "../fonts/HeveticalBold/HelveticaNeueCyr-Bold",bold);
+
