@@ -2,22 +2,22 @@
   font-family: "stayRed-example";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/stayRad/Stay Rad - Demo.eot");
-  src: url("../fonts/stayRad/Stay Rad - Demo.eot?#iefix") format("embedded-opentype"), url("../fonts/stayRad/Stay Rad - Demo.woff") format("woff"), url("../fonts/stayRad/Stay Rad - Demo.ttf") format("truetype"); }
+  src: url("../fonts/stayRad/StayRadDemo.eot");
+  src: url("../fonts/stayRad/StayRadDemo.eot?#iefix") format("embedded-opentype"), url("../fonts/stayRad/StayRadDemo.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Hevetical-example";
   font-weight: normal;
   font-style: normal;
   src: url("../fonts/Hevetical/Hevetical.eot");
-  src: url("../fonts/Hevetical/Hevetical.eot?#iefix") format("embedded-opentype"), url("../fonts/Hevetical/Hevetical.woff") format("woff"), url("../fonts/Hevetical/Hevetical.ttf") format("truetype"); }
+  src: url("../fonts/Hevetical/Hevetical.eot?#iefix") format("embedded-opentype"), url("../fonts/Hevetical/Hevetical.ttf") format("truetype"); }
 
 @font-face {
   font-family: "HeveticalBold-example";
   font-weight: bold;
   font-style: normal;
   src: url("../fonts/HeveticalBold/HelveticaNeueCyr-Bold.eot");
-  src: url("../fonts/HeveticalBold/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/HeveticalBold/HelveticaNeueCyr-Bold.woff") format("woff"), url("../fonts/HeveticalBold/HelveticaNeueCyr-Bold.ttf") format("truetype"); }
+  src: url("../fonts/HeveticalBold/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/HeveticalBold/HelveticaNeueCyr-Bold.ttf") format("truetype"); }
 
 html {
   -webkit-box-sizing: border-box;
@@ -64,7 +64,8 @@ body {
     margin-bottom: 100px; }
     .text-wrapper .text-info p {
       margin-bottom: 20px;
-      line-height: 26px; }
+      line-height: 26px;
+      opacity: 0.8; }
     .text-wrapper .text-info h2 {
       font-size: 26px;
       margin-bottom: 20px;
@@ -93,7 +94,8 @@ body {
   .text-border-info p {
     width: 100%;
     max-width: 570px;
-    margin: 0 auto 50px auto; }
+    margin: 0 auto 50px auto;
+    opacity: 0.8; }
 
 .bottom-form {
   margin-top: 150px;
@@ -101,7 +103,8 @@ body {
   .bottom-form form h2 {
     font-weight: normal;
     font-size: 18px;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    opacity: 0.8; }
   .bottom-form form input {
     width: 100%;
     display: block;
@@ -133,7 +136,8 @@ body {
   transition: all 0.5s;
   cursor: pointer;
   margin-top: 20px;
-  font-size: 18px; }
+  font-size: 18px;
+  outline: none; }
   .form-button:hover {
     background: none;
     color: #1A1818; }
