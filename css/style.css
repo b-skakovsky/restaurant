@@ -55,8 +55,10 @@ body {
     color: #ffffff; }
 
 .text-wrapper {
-  width: 768px;
-  margin: 0 auto; }
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 20px; }
   .text-wrapper .text-info {
     margin-top: 100px;
     margin-bottom: 100px; }
@@ -69,7 +71,7 @@ body {
       font-weight: bold; }
 
 .bottom-bg {
-  background-image: url(../image/bg-top.png);
+  background-image: url(../image/work.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -82,17 +84,20 @@ body {
   text-align: center;
   border-right: 1px solid #707070;
   border-left: 1px solid #707070;
-  padding: 25px 0; }
+  padding: 25px 10px; }
   .text-border-info h2 {
-    width: 460px;
+    width: 100%;
+    max-width: 460px;
     margin: 0 auto 10px auto;
     font-weight: bold; }
   .text-border-info p {
-    width: 570px;
+    width: 100%;
+    max-width: 570px;
     margin: 0 auto 50px auto; }
 
 .bottom-form {
-  margin-top: 150px; }
+  margin-top: 150px;
+  margin-bottom: 125px; }
   .bottom-form form h2 {
     font-weight: normal;
     font-size: 18px;
@@ -132,3 +137,18 @@ body {
   .form-button:hover {
     background: none;
     color: #1A1818; }
+
+@media screen and (max-width: 1275px) {
+  .top-bg p {
+    font-size: 300px;
+    bottom: -20px; } }
+
+@media screen and (max-width: 1275px) {
+  .top-bg p {
+    font-size: 200px;
+    bottom: 20px; } }
+
+@media screen and (max-width: 680px) {
+  .top-bg p {
+    font-size: 100px;
+    bottom: 50%; } }
