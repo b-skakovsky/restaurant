@@ -1,0 +1,41 @@
+.address-info h2{
+	font-size: 20px;
+	line-height: 34px;
+	font-family:PT_Sans-Web-Bold;
+	color: rgba(0, 0, 0, 0.9);
+	margin: 10px 0 10px 0;
+}
+.address-info p{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 34px;
+
+	color: rgba(0, 0, 0, 0.9);
+}
+.address-info a{
+	font-size: 16px;
+	line-height: 29px;
+	text-decoration-line: underline;
+	margin: 0 30px 0 0;
+	color: #9C1111;
+}
+section.title-page-block{
+	padding: 20px 0;
+}
+section.map img{
+	max-width: 1200px;
+}
+.map{
+	background: url(../image/map-bg-second.png)no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 344px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+@media only screen and (max-width : 992px){
+	.map{
+		background: url(../image/map-bg.png);
+		background-position: center;
+	}
+}

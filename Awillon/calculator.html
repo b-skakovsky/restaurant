@@ -1,0 +1,2499 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="libs/MagnificPopup/dist/magnific-popup.css">
+  <link rel="stylesheet" type="text/css" href="libs/bootstrap-4.3.1/dist/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" type="text/css" href="style/fonts.css">
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <link rel="stylesheet" type="text/css" href="style/calculator.css">
+</head>
+<body>
+  <section class="info-user">
+    <div class="baskets tooltip-left">
+      <span class="tooltiptext-left">Корзина</span>
+      <a href="#baskets"  class="popup-baskets" data-effect="mfp-move-from-top"><img src="image/baskets.png"></a>
+      <p>2</p>
+    </div>
+    <div class="user-help tooltip-left">
+       <span class="tooltiptext-left">Заказать звонок </span>
+       <a  href="#form" class="popup" data-effect="mfp-move-horizontal"><img src="image/support3.png"></a>
+    </div>
+    <div class="user-worker tooltip-left">
+       <span class="tooltiptext-left">Вызвать замерщика</span>
+       <a href="#form-gager" class="popup" data-effect="mfp-move-horizontal"><img src="image/worker.png"></a>
+    </div>
+  </section>
+  <header>
+    <div class="container">
+      <div class="row justify-content-between align-items-center top-nav">
+        <div class="col-xl-9 ">
+          <input class="menu-btn" type="checkbox" id="menu-btn" />
+          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+          <ul class="menu">
+            <li><a href="company.html">О компании </a></li>
+            <li><a href="ready-work.html">Готовые работы</a></li>
+            <li><a href="credit.html">Кредит</a></li>
+            <li><a href="installment.html">Рассрочка</a></li>
+            <li><a href="questions.html">Вопрос-ответ</a></li>
+            <li><a href="Special.html">Специальные предложения </a></li>
+            <li><a href="contact.html">Контакты </a></li>
+          </ul>
+        </div>
+        <div class="col-xl-3">
+          <div class="search">
+            <form>
+              <input type="text" placeholder="Поиск">
+              <button type="submit"></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-info">
+      <div class="container">
+        <div class="row header-info-wrapper">
+          <div class="col-xl col-lg-12 logo-header">
+            <a href="index.html"><img src="image/logo.png"></a>
+          </div>
+          <div class="col-xl col-md-6 align-self-center map-info">
+            <div class="img-info">
+              <img src="image/map.png">
+            </div>
+            <div class="block-desc">
+              <p>Город Челябинск</p>
+              <h2>Отрадная, 25, оф. 308</h2>
+              <a href="contact.html">Показать на карте</a>
+            </div>
+          </div>
+          <div class="col-xl col-md-6 phone-info">
+            <div class="img-info">
+              <img src="image/support2.png">
+            </div>
+            <div class="block-desc">
+              <p>Без выходных: 10.00 - 20.00</p>
+              <h2>+7 (351) 225-41-06</h2>
+              <a href="#form" class="popup" data-effect="mfp-move-horizontal">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="col-xl col-md-6 phone-info">
+            <div class="img-info">
+              <img src="image/support2.png">
+            </div>
+            <div class="block-desc">
+              <p>Без выходных: 10.00 - 20.00</p>
+              <h2>+7 (351) 776-46-0</h2>
+              <a href="#form" class="popup" data-effect="mfp-move-horizontal">Заказать звонок</a>
+            </div>
+          </div>
+          <div class="col-xl col-md-6 master-info">
+            <div class="img-info">
+              <img src="image/worker3.png">
+            </div>
+            <div class="block-desc">
+              <p>Беcплатно</p>
+              <h2>Вызвать замерщика</h2>
+              <a href="#form-gager" class="popup" data-effect="mfp-move-horizontal">Записаться на замер</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="navbar">
+      <div class="nav-main">
+        <div class="container">
+          <div class="second-nav">
+            <input class="menu-btn" type="checkbox" id="menu-btnn" />
+            <label class="menu-icon" for="menu-btnn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="calculator.html">Калькулятор</a></li>
+              <li><a href="windows.html">Пластиковые окна</a></li>
+              <li><a href="balcony.html">Остекление балконов</a></li>
+              <li><a href="balcons-finishes.html">Отделка балконов </a></li>
+              <li><a href="glazing.html">Остекление коттеджей</a></li>
+              <li><a href="door.html">Двери </a></li>
+              <li><a href="ceilings.html">Натяжные потолки</a></li>
+              <li><a href="jalousie.html">Жалюзи</a></li>
+              <li><a href="catalog.html">Каталог</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="title-page">
+    <div class="container">
+      <h2>Калькулятор примерной стоимости</h2>
+    </div>
+  </section>
+  <section class="calculator">
+    <div class="container block-wrapper">
+      <div class="tabs top-tabs">
+        <a href="#tab1">Окна</a>
+        <a href="#tab2">Остекление </a>
+        <a href="#tab3">Обшивка</a>
+      </div>
+      <div id="tab1" class="tab-content">
+        <div class="title-windows">
+          <p>Форма окна</p>
+        </div>
+        <div class="tabs">
+          <div class="tabs-child-wrapper">
+            <div class="tabs-item">
+              <a href="#tabs-child1-1">
+                <div class="product-tabs-img">
+                  <img src="image/item-1.png">
+                </div>
+                <div class="product-tabs-info">
+                  <p>Двустворчатое окно</p>
+                </div>
+                <div class="progres">
+                  <div class="progres-wrapper">
+                    <div class="progres-item"></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="tabs-item">
+              <a href="#tabs-child1-2">
+                <div class="product-tabs-img">
+                  <img src="image/item-2.png">
+                </div>
+                <div class="product-tabs-info">
+                  <p>Трехстворчатое окно</p>
+                </div>
+                <div class="progres">
+                  <div class="progres-wrapper">
+                    <div class="progres-item"></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="tabs-item">
+              <a href="#tabs-child1-3">
+                <div class="product-tabs-img">
+                  <img src="image/item-3.png">
+                </div>
+                <div class="product-tabs-info">
+                  <p>Балконный блок</p>
+                </div>
+                <div class="progres">
+                  <div class="progres-wrapper">
+                    <div class="progres-item"></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="tabs-child1-1" class="tab-content">
+          <div class="row no-gutters tabs-child-contain">
+            <div class="col-xl-7">
+              <div class="calculator-info">
+                <div class="title-windows">
+                  <p>Конструкция </p>
+                  <a href="#" class="tooltip"><img src="image/calculator-const.png">
+                    <span class="tooltiptext">
+                      <div class="tooltiptext-item">
+                        <img src="image/windows/icon1_1.png">
+                        <p>Глухая створка</p>
+                      </div>
+                      <div class="tooltiptext-item">
+                        <img src="image/windows/icon1-2.png">
+                        <p>Поворотная створка</p>
+                      </div>
+                      <div class="tooltiptext-item">
+                        <img src="image/windows/icon1-3.png">
+                          <p>Поворотно-откидная створка</p>
+                        </div>
+                    </span>
+                  </a>
+                </div>
+                <div class="windows-item">
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon1-1" class="che"> 
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon1.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon1-1" class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon2.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon1-1" class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon3.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon1-1" class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon4.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio" name="icon1-1"  class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                         <div class="icon-img">
+                            <img src="image/windows/icon5.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Стеклопакет</p>
+                </div>
+                <div class="glazing-wrapper ">
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="glaz1">
+                      <span class="checkmark"></span>
+                      <p>Однокамерный</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="glaz1">
+                      <span class="checkmark"></span>
+                      <p>Двухкамерный</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="glaz1">
+                      <span class="checkmark"></span>
+                      <p>Энергосберегающий</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="glaz1">
+                      <span class="checkmark"></span>
+                      <p>Шпросы</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="glaz1">
+                      <span class="checkmark"></span>
+                      <p>Триплеск</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Дополнительные услуги</p>
+                </div>
+                <div class="extra">
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Ламинация </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Подоконник </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Водоотлив </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Покраска </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Откосы </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Нащельник </p>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5">
+              <div class="calculator-renge">
+                <div class="calculator-block">
+                  <a href="#form-gager" class="popup" data-effect="mfp-move-horizontal">Как узнать размер?</a>
+                  <div class=" calculator-img">
+                    <img src="image/calcu2.png">
+                  </div>
+                  <div class="range-right">
+                    <div class="range-slider">
+                      <div class="range-value-right">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="2700" >
+                        <p class="height">Высота</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="range-botto">
+                    <div class="range-slider">
+                      <div class="range-value-bottom">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="2700" >
+                        <p class="width">Ширина</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="calculator-price">
+                  <div class="installation">
+                    <h2>Монтаж</h2>
+                    <div class="installation-item">
+                      <label class="installation-type">
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                        <p>В панельном доме </p>
+                      </label>
+                      <label class="installation-type">
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                        <p>В кирпичном доме </p>
+                      </label>
+                    </div>
+                    <div class="installation-info">
+                      <p>Демонтаж <span>Бесплатно</span></p>
+                      <p>Доставка <span>Бесплатно</span></p>
+                      <p>Уборка <span>Бесплатно</span></p>
+                      <p>Москитка <span>Бесплатно</span></p>
+                    </div>
+                  </div>
+                  <div class="calculator-total-price">
+                    <div class="calculator-total">
+                      <div class="calculator-price-size">
+                        <h2>В рассрочку</h2>
+                        <p>521 <span>руб/месяц</span></p>
+                      </div>
+                    </div>
+                    <div class="calculator-total price-total">
+                      <div class="calculator-price-size">
+                        <h2>В рассрочку</h2>
+                        <p>5 212 <span>руб</span></p>
+                      </div>
+                    </div>
+                    <div class="calculator-basket">
+                      <a href="#baskets-add" class="popup-baskets " data-effect="mfp-move-from-top">Добавить в корзину </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tabs-child1-2" class="tab-content">
+          <div class="row no-gutters tabs-child-contain">
+            <div class="col-xl-7">
+              <div class="calculator-info">
+                <div class="title-windows">
+                  <p>Конструкция </p>
+                  <a href="#" class="tooltip"><img src="image/calculator-const.png">
+                    <span class="tooltiptext">
+                      <div class="tooltiptext-item">
+                        <img src="image/windows/icon1_1.png">
+                        <p>Глухая створка</p>
+                      </div>
+                      <div class="tooltiptext-item">
+                        <img src="image/windows/icon1-2.png">
+                        <p>Поворотная створка</p>
+                      </div>
+                      <div class="tooltiptext-item">
+                        <img src="image/windows/icon1-3.png">
+                          <p>Поворотно-откидная створка</p>
+                        </div>
+                    </span>
+                  </a>
+                </div>
+                <div class="windows-item">
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon1-2" class="che" >
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon2-1.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon1-2"  class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon2-2.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon1-2" class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon2-3.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon1-2" class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon2-4.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon1-2" class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                         <div class="icon-img">
+                            <img src="image/windows/icon2-5.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon1-2" class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                         <div class="icon-img">
+                            <img src="image/windows/icon2-6.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Стеклопакет</p>
+                </div>
+                <div class="glazing-wrapper ">
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="glaz1-2">
+                      <span class="checkmark"></span>
+                      <p>Однокамерный</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="glaz1-2">
+                      <span class="checkmark"></span>
+                      <p>Двухкамерный</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="glaz1-2">
+                      <span class="checkmark"></span>
+                      <p>Энергосберегающий</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="glaz1-2">
+                      <span class="checkmark"></span>
+                      <p>Шпросы</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="glaz1-2">
+                      <span class="checkmark"></span>
+                      <p>Триплеск</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Дополнительные услуги</p>
+                </div>
+                <div class="extra">
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Ламинация </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Подоконник </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Водоотлив </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Покраска </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Откосы </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Нащельник </p>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5">
+              <div class="calculator-renge">
+                <div class="calculator-block">
+                  <a href="#form-gager" class="popup" data-effect="mfp-move-horizontal">Как узнать размер?</a>
+                  <div class=" calculator-img">
+                    <img src="image/calcu3.png">
+                  </div>
+                  <div class="range-right">
+                    <div class="range-slider">
+                      <div class="range-value-right">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="2700" >
+                        <p class="height">Высота</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="range-botto">
+                    <div class="range-slider">
+                      <div class="range-value-bottom">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="2700" >
+                        <p class="width">Ширина</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="calculator-price">
+                  <div class="installation">
+                    <h2>Монтаж</h2>
+                    <div class="installation-item">
+                      <label class="installation-type">
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                        <p>В панельном доме </p>
+                      </label>
+                      <label class="installation-type">
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                        <p>В кирпичном доме</p>
+                      </label>
+                    </div>
+                    <div class="installation-info">
+                      <p>Демонтаж <span>Бесплатно</span></p>
+                      <p>Доставка <span>Бесплатно</span></p>
+                      <p>Уборка <span>Бесплатно</span></p>
+                      <p>Москитка <span>Бесплатно</span></p>
+                    </div>
+                  </div>
+                  <div class="calculator-total-price">
+                    <div class="calculator-total">
+                      <div class="calculator-price-size">
+                        <h2>В рассрочку</h2>
+                        <p>928 <span>руб/месяц</span></p>
+                      </div>
+                    </div>
+                    <div class="calculator-total price-total">
+                      <div class="calculator-price-size">
+                        <h2>В рассрочку</h2>
+                        <p>9 288 <span>руб</span></p>
+                      </div>
+                    </div>
+                    <div class="calculator-basket">
+                      <a  href="#baskets-add" class="popup-baskets " data-effect="mfp-move-from-top">Добавить в корзину </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tabs-child1-3" class="tab-content">
+         <div class="row no-gutters tabs-child-contain">
+           <div class="col-xl-7">
+             <div class="calculator-info">
+               <div class="title-windows">
+                 <p>Конструкция </p>
+                 <a href="#" class="tooltip"><img src="image/calculator-const.png">
+                   <span class="tooltiptext">
+                     <div class="tooltiptext-item">
+                       <img src="image/windows/icon1_1.png">
+                       <p>Глухая створка</p>
+                     </div>
+                     <div class="tooltiptext-item">
+                       <img src="image/windows/icon1-2.png">
+                       <p>Поворотная створка</p>
+                     </div>
+                     <div class="tooltiptext-item">
+                       <img src="image/windows/icon1-3.png">
+                         <p>Поворотно-откидная створка</p>
+                       </div>
+                   </span>
+                 </a>
+               </div>
+               <div class="windows-item">
+                 <div class="design-item">
+                   <label >
+                     <input type="radio"  name="icon1-3" class="che">
+                     <span class="checkmark"></span>
+                     <div class="desing-itemm">
+                       <div class="icon-img">
+                         <img src="image/windows/icon3-1.png">
+                       </div>
+                     </div>
+                   </label>
+                 </div>
+                 <div class="design-item">
+                   <label >
+                     <input type="radio"  name="icon1-3" class="che">
+                     <span class="checkmark"></span>
+                     <div class="desing-itemm">
+                       <div class="icon-img">
+                         <img src="image/windows/icon3-2.png">
+                       </div>
+                     </div>
+                   </label>
+                 </div>
+                 <div class="design-item">
+                   <label >
+                     <input type="radio"  name="icon1-3" class="che">
+                     <span class="checkmark"></span>
+                     <div class="desing-itemm">
+                       <div class="icon-img">
+                         <img src="image/windows/icon3-3.png">
+                       </div>
+                     </div>
+                   </label>
+                 </div>
+                 <div class="design-item">
+                   <label >
+                     <input type="radio"  name="icon1-3" class="che">
+                     <span class="checkmark"></span>
+                     <div class="desing-itemm">
+                       <div class="icon-img">
+                         <img src="image/windows/icon3-4.png">
+                       </div>
+                     </div>
+                   </label>
+                 </div>
+                 <div class="design-item">
+                   <label >
+                     <input type="radio"  name="icon1-3" class="che">
+                     <span class="checkmark"></span>
+                     <div class="desing-itemm">
+                        <div class="icon-img">
+                           <img src="image/windows/icon3-5.png">
+                       </div>
+                     </div>
+                   </label>
+                 </div>
+               </div>
+               <div class="title-windows">
+                 <p>Стеклопакет</p>
+               </div>
+               <div class="glazing-wrapper ">
+                 <div class="design-item glazing-item">
+                   <label >
+                     <input type="radio"  name="glaz1-3">
+                     <span class="checkmark"></span>
+                     <p>Однокамерный</p>
+                   </label>
+                 </div>
+                 <div class="design-item glazing-item">
+                   <label >
+                     <input type="radio"  name="glaz1-3">
+                     <span class="checkmark"></span>
+                     <p>Двухкамерный</p>
+                   </label>
+                 </div>
+                 <div class="design-item glazing-item">
+                   <label >
+                     <input type="radio"  name="glaz1-3">
+                     <span class="checkmark"></span>
+                     <p>Энергосберегающий</p>
+                   </label>
+                 </div>
+                 <div class="design-item glazing-item">
+                   <label >
+                     <input type="radio"  name="glaz1-3">
+                     <span class="checkmark"></span>
+                     <p>Шпросы</p>
+                   </label>
+                 </div>
+                 <div class="design-item glazing-item">
+                   <label >
+                     <input type="radio"  name="glaz1-3">
+                     <span class="checkmark"></span>
+                     <p>Триплеск</p>
+                   </label>
+                 </div>
+               </div>
+               <div class="title-windows">
+                 <p>Дополнительные услуги</p>
+               </div>
+               <div class="extra">
+                 <div class="installation-item extra-item">
+                   <label class="installation-type">
+                     <input type="checkbox" >
+                     <span class="checkmark"></span>
+                     <p>Ламинация </p>
+                   </label>
+                 </div>
+                 <div class="installation-item extra-item">
+                   <label class="installation-type">
+                     <input type="checkbox" >
+                     <span class="checkmark"></span>
+                     <p>Подоконник </p>
+                   </label>
+                 </div>
+                 <div class="installation-item extra-item">
+                   <label class="installation-type">
+                     <input type="checkbox" >
+                     <span class="checkmark"></span>
+                     <p>Водоотлив </p>
+                   </label>
+                 </div>
+                 <div class="installation-item extra-item">
+                   <label class="installation-type">
+                     <input type="checkbox" >
+                     <span class="checkmark"></span>
+                     <p>Покраска </p>
+                   </label>
+                 </div>
+                 <div class="installation-item extra-item">
+                   <label class="installation-type">
+                     <input type="checkbox" >
+                     <span class="checkmark"></span>
+                     <p>Откосы </p>
+                   </label>
+                 </div>
+                 <div class="installation-item extra-item">
+                   <label class="installation-type">
+                     <input type="checkbox" >
+                     <span class="checkmark"></span>
+                     <p>Нащельник </p>
+                   </label>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="col-xl-5">
+             <div class="calculator-renge">
+               <div class="calculator-block">
+                 <a href="#form-gager" class="popup" data-effect="mfp-move-horizontal">Как узнать размер?</a>
+                 <div class=" calculator-img">
+                   <img src="image/calcu.png">
+                 </div>
+                 <div class="range-right">
+                   <div class="range-slider">
+                     <div class="range-value-right">
+                       <input class="range-slider__range" type="range" value="0" min="0" max="2700" >
+                       <p class="height">Высота</p>
+                       <span class="range-slider__value">
+                         <p class="">0 <span> мм</span></p>
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="range-botto">
+                   <div class="range-slider">
+                     <div class="range-value-bottom">
+                       <input class="range-slider__range" type="range" value="0" min="0" max="2700" >
+                       <p class="width">Ширина</p>
+                       <span class="range-slider__value">
+                         <p class="">0 <span> мм</span></p>
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="calculator-price">
+                 <div class="installation">
+                   <h2>Монтаж</h2>
+                   <div class="installation-item">
+                     <label class="installation-type">
+                       <input type="checkbox" >
+                       <span class="checkmark"></span>
+                       <p>В панельном доме </p>
+                     </label>
+                     <label class="installation-type">
+                       <input type="checkbox" >
+                       <span class="checkmark"></span>
+                       <p>В кирпичном доме </p>
+                     </label>
+                   </div>
+                   <div class="installation-info">
+                     <p>Демонтаж <span>Бесплатно</span></p>
+                     <p>Доставка <span>Бесплатно</span></p>
+                     <p>Уборка <span>Бесплатно</span></p>
+                     <p>Москитка <span>Бесплатно</span></p>
+                   </div>
+                 </div>
+                 <div class="calculator-total-price">
+                   <div class="calculator-total">
+                     <div class="calculator-price-size">
+                       <h2>В рассрочку</h2>
+                       <p>810 <span>руб/месяц</span></p>
+                     </div>
+                   </div>
+                   <div class="calculator-total price-total">
+                     <div class="calculator-price-size">
+                       <h2>В рассрочку</h2>
+                       <p>8 100 <span>руб</span></p>
+                     </div>
+                   </div>
+                   <div class="calculator-basket">
+                     <a  href="#baskets-add" class="popup-baskets " data-effect="mfp-move-from-top">Добавить в корзину </a>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+      </div>
+      <div id="tab2" class="tab-content">
+        <div class="title-windows">
+          <p>Тип остекления </p>
+        </div>
+        <div class="tabs">
+          <div class="tabs-child-wrapper">
+            <div class="tabs-item">
+              <a href="#tabs-child2-1">
+                <div class="product-tabs-img">
+                  <img src="image/item-4.png">
+                </div>
+                <div class="product-tabs-info">
+                  <p>Холодное остекление</p>
+                </div>
+                <div class="progres">
+                  <div class="progres-wrapper">
+                    <div class="progres-item"></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="tabs-item">
+              <a href="#tabs-child2-2">
+                <div class="product-tabs-img">
+                  <img src="image/item-2.png">
+                </div>
+                <div class="product-tabs-info">
+                  <p>Теплое остекление</p>
+                </div>
+                <div class="progres">
+                  <div class="progres-wrapper">
+                    <div class="progres-item"></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="tabs-child2-1" class="tab-content">
+          <div class="row no-gutters tabs-child-contain">
+            <div class="col-xl-7">
+              <div class="calculator-info">
+                <div class="title-windows">
+                  <p>Конструкция </p>
+                  <a href="#" class="tooltip"><img src="image/calculator-const.png">
+                    <span class="tooltiptext">
+                      <div class="tooltiptext-item">
+                        <img src="image/windows/icon1_1.png">
+                        <p>Глухая створка</p>
+                      </div>
+                      <div class="tooltiptext-item">
+                        <img src="image/windows/icon1-2.png">
+                        <p>Поворотная створка</p>
+                      </div>
+                      <div class="tooltiptext-item">
+                        <img src="image/windows/icon1-3.png">
+                          <p>Поворотно-откидная створка</p>
+                        </div>
+                    </span>
+                  </a>
+                </div>
+                <div class="windows-item">
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon2-1" class="che" >
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon4-1.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon2-1" class="che" >
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon4-2.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon2-1" class="che" >
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon4-3.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon2-1" class="che" >
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon4-4.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon2-1" class="che" >
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                         <div class="icon-img">
+                            <img src="image/windows/icon4-5.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon2-1" class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                         <div class="icon-img">
+                            <img src="image/windows/icon4-6.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon2-1" class="che" >
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                         <div class="icon-img">
+                            <img src="image/windows/icon4-7.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Дополнительные услуги</p>
+                </div>
+                <div class="extra">
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Покласка</p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Подоконник </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Водоотлив </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Нащельник </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Вынос</p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Проф. лист</p>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5">
+              <div class="calculator-renge">
+                <div class="calculator-block">
+                  <a href="#form-gager" class="popup" data-effect="mfp-move-horizontal">Как узнать размер?</a>
+                  <div class=" calculator-img">
+                    <img src="image/calcu4.png">
+                  </div>
+                  <div class="range-right">
+                    <div class="range-slider">
+                      <div class="range-value-right">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="2000" >
+                        <p class="height">Высота</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="range-botto">
+                    <div class="range-slider">
+                      <div class="range-value-bottom">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="7000" >
+                        <p class="width">Ширина</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="calculator-price">
+                  <div class="installation">
+                    <h2>Монтаж</h2>
+                    <div class="installation-info">
+                      <p>Демонтаж <span>Бесплатно</span></p>
+                      <p>Доставка <span>Бесплатно</span></p>
+                      <p>Уборка <span>Бесплатно</span></p>
+                      <p>Москитка <span>Бесплатно</span></p>
+                    </div>
+                  </div>
+                  <div class="calculator-total-price">
+                    <div class="calculator-total">
+                      <div class="calculator-price-size">
+                        <h2>В рассрочку</h2>
+                        <p>521 <span>руб/месяц</span></p>
+                      </div>
+                    </div>
+                    <div class="calculator-total price-total">
+                      <div class="calculator-price-size">
+                        <h2>В рассрочку</h2>
+                        <p>5 212 <span>руб</span></p>
+                      </div>
+                    </div>
+                    <div class="calculator-basket">
+                      <a  href="#baskets-add" class="popup-baskets " data-effect="mfp-move-from-top">Добавить в корзину </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tabs-child2-2" class="tab-content">
+          <div class="row no-gutters tabs-child-contain">
+            <div class="col-xl-7">
+              <div class="calculator-info">
+                <div class="title-windows">
+                  <p>Конструкция </p>
+                  <a href="#" class="tooltip"><img src="image/calculator-const.png">
+                    <span class="tooltiptext">
+                      <div class="tooltiptext-item">
+                        <img src="image/windows/icon1_1.png">
+                        <p>Глухая створка</p>
+                      </div>
+                      <div class="tooltiptext-item">
+                        <img src="image/windows/icon1-2.png">
+                        <p>Поворотная створка</p>
+                      </div>
+                      <div class="tooltiptext-item">
+                        <img src="image/windows/icon1-3.png">
+                          <p>Поворотно-откидная створка</p>
+                        </div>
+                    </span>
+                  </a>
+                </div>
+                <div class="windows-item">
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon4-1" class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon7.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon4-1" class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon7-1.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon4-1" class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon7-2.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon4-1" class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                        <div class="icon-img">
+                          <img src="image/windows/icon7-3.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon4-1" class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                         <div class="icon-img">
+                            <img src="image/windows/icon7-4.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon4-1" class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                         <div class="icon-img">
+                            <img src="image/windows/icon7-5.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="design-item">
+                    <label >
+                      <input type="radio"  name="icon4-1" class="che">
+                      <span class="checkmark"></span>
+                      <div class="desing-itemm">
+                         <div class="icon-img">
+                            <img src="image/windows/icon7-6.png">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                 <div class="title-windows">
+                  <p>Стеклопакет</p>
+                </div>
+                <div class="glazing-wrapper ">
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="glaz4-1">
+                      <span class="checkmark"></span>
+                      <p>Однокамерный</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="glaz4-1" >
+                      <span class="checkmark"></span>
+                      <p>Двухкамерный</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="glaz4-1">
+                      <span class="checkmark"></span>
+                      <p>Энергосберегающий</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="glaz4-1">
+                      <span class="checkmark"></span>
+                      <p>Шпросы</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="glaz4-1">
+                      <span class="checkmark"></span>
+                      <p>Триплеск</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Дополнительные услуги</p>
+                </div>
+                <div class="extra">
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Покласка</p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Ламинация</p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Подоконник</p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Водоотлив</p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Нащельник</p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Вынос</p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Проф. лист</p>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5">
+              <div class="calculator-renge">
+                <div class="calculator-block">
+                  <a href="#form-gager" class="popup" data-effect="mfp-move-horizontal">Как узнать размер?</a>
+                  <div class=" calculator-img">
+                    <img src="image/calcu3.png">
+                  </div>
+                  <div class="range-right">
+                    <div class="range-slider">
+                      <div class="range-value-right">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="2000" >
+                        <p class="height">Высота</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="range-botto">
+                    <div class="range-slider">
+                      <div class="range-value-bottom">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="7000" >
+                        <p class="width">Ширина</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="calculator-price">
+                  <div class="installation">
+                    <h2>Монтаж</h2>
+                    <div class="installation-info">
+                      <p>Демонтаж <span>Бесплатно</span></p>
+                      <p>Доставка <span>Бесплатно</span></p>
+                      <p>Уборка <span>Бесплатно</span></p>
+                      <p>Москитка <span>Бесплатно</span></p>
+                    </div>
+                  </div>
+                  <div class="calculator-total-price">
+                    <div class="calculator-total">
+                      <div class="calculator-price-size">
+                        <h2>В рассрочку</h2>
+                        <p>521 <span>руб/месяц</span></p>
+                      </div>
+                    </div>
+                    <div class="calculator-total price-total">
+                      <div class="calculator-price-size">
+                        <h2>В рассрочку</h2>
+                        <p>5 212 <span>руб</span></p>
+                      </div>
+                    </div>
+                    <div class="calculator-basket">
+                      <a  href="#baskets-add" class="popup-baskets " data-effect="mfp-move-from-top">Добавить в корзину </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="tab3" class="tab-content">
+        <div class="title-windows">
+          <p>Тип остекления </p>
+        </div>
+        <div class="tabs">
+          <div class="tabs-child-wrapper">
+            <div class="tabs-item">
+              <a href="#tabs-child3-1">
+                <div class="product-tabs-img">
+                  <img src="image/item-5.png">
+                </div>
+                <div class="product-tabs-info">
+                  <p>Панели МДФ</p>
+                </div>
+                <div class="progres">
+                  <div class="progres-wrapper">
+                    <div class="progres-item"></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="tabs-item">
+              <a href="#tabs-child3-3">
+                <div class="product-tabs-img">
+                  <img src="image/item-6.png">
+                </div>
+                <div class="product-tabs-info">
+                  <p>Пластик</p>
+                </div>
+                <div class="progres">
+                  <div class="progres-wrapper">
+                    <div class="progres-item"></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="tabs-item">
+              <a href="#tabs-child3-2">
+                <div class="product-tabs-img">
+                  <img src="image/item-7.png">
+                </div>
+                <div class="product-tabs-info">
+                  <p>Евровагонка</p>
+                </div>
+                <div class="progres">
+                  <div class="progres-wrapper">
+                    <div class="progres-item"></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="tabs-item">
+              <a href="#tabs-child3-4">
+                <div class="product-tabs-img">
+                  <img src="image/item-8.png">
+                </div>
+                <div class="product-tabs-info">
+                  <p>Ламиннированые панели</p>
+                </div>
+                <div class="progres">
+                  <div class="progres-wrapper">
+                    <div class="progres-item"></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="tabs-child3-1" class="tab-content">
+          <div class="row no-gutters tabs-child-contain">
+            <div class="col-xl-7">
+              <div class="calculator-info">
+                 <div class="warning">
+                   <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <div class="warming-item">
+                         <div class="product-tabs-img">
+                      <img src="image/item9.png">
+                    </div>
+                    <div class="product-tabs-info">
+                      <p>Утепление</p>
+                    </div>
+                      </div>
+                   </label>
+                 </div>
+                <div class="title-windows">
+                  <p>Покрытие пола </p>
+                </div>
+                <div class="glazing-wrapper ">
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor" >
+                      <span class="checkmark"></span>
+                      <p>Фанера</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor">
+                      <span class="checkmark"></span>
+                      <p>Шпунт</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor" >
+                      <span class="checkmark"></span>
+                      <p>Обрезная доска</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Отделка пола</p>
+                </div>
+                <div class="glazing-wrapper ">
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor1" >
+                      <span class="checkmark"></span>
+                      <p>Линолеум</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor1" >
+                      <span class="checkmark"></span>
+                      <p>Ламинат</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Изготовление балконного шкафа</p>
+                </div>
+                <div class="glazing-wrapper ">
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor2">
+                      <span class="checkmark"></span>
+                      <p>Маленький</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor2">
+                      <span class="checkmark"></span>
+                      <p>Большой</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Дополнительные услуги</p>
+                </div>
+                <div class="extra">
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Установка светильников </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Установка розетки </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Установка теплого пола </p>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5">
+              <div class="calculator-renge warming-renge">
+                <p>Укажите ширину и высоту балкона</p>
+                <div class="calculator-block">
+                  <a href="#form-gager" class="popup" data-effect="mfp-move-horizontal">Как узнать размер?</a>
+                  
+                  <div class=" calculator-img">
+                    <img src="image/calcu5.png">
+                  </div>
+                  <div class="range-right">
+                    <div class="range-slider">
+                      <div class="range-value-right">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="7000" >
+                        <p class="height">Высота</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="range-botto">
+                    <div class="range-slider">
+                      <div class="range-value-bottom">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="7000" >
+                        <p class="width">Ширина</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="calculator-price">
+                  <div class="price-calculator-wrapper">
+                    <div class="calculator-price-size">
+                      <h2>В рассрочку</h2>
+                      <p>384 <span>руб/месяц</span></p>
+                      <h2>Сушка для белья в подарок!</h2>
+                    </div>
+                    <div class="calculator-total price-total">
+                      <div class="calculator-price-size">
+                        <h2>В рассрочку</h2>
+                        <p>3 840 <span>руб</span></p>
+                      </div>
+                      <div class="calculator-basket">
+                        <a  href="#baskets-add" class="popup-baskets " data-effect="mfp-move-from-top">Добавить в корзину </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tabs-child3-2" class="tab-content">
+          <div class="row no-gutters tabs-child-contain">
+            <div class="col-xl-7">
+              <div class="calculator-info">
+                <div class="warning">
+                   <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <div class="warming-item">
+                         <div class="product-tabs-img">
+                      <img src="image/item9.png">
+                    </div>
+                    <div class="product-tabs-info">
+                      <p>Утепление</p>
+                    </div>
+                      </div>
+                   </label>
+                 </div>
+                <div class="title-windows">
+                  <p>Покрытие пола </p>
+                </div>
+                <div class="glazing-wrapper ">
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor" >
+                      <span class="checkmark"></span>
+                      <p>Фанера</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor">
+                      <span class="checkmark"></span>
+                      <p>Шпунт</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor" >
+                      <span class="checkmark"></span>
+                      <p>Обрезная доска</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Отделка пола</p>
+                </div>
+                <div class="glazing-wrapper ">
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor1" >
+                      <span class="checkmark"></span>
+                      <p>Линолеум</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor1" >
+                      <span class="checkmark"></span>
+                      <p>Ламинат</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Изготовление балконного шкафа</p>
+                </div>
+                <div class="glazing-wrapper ">
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor2">
+                      <span class="checkmark"></span>
+                      <p>Маленький</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor2">
+                      <span class="checkmark"></span>
+                      <p>Большой</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Дополнительные услуги</p>
+                </div>
+                <div class="extra">
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Установка светильников </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Установка розетки </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Установка теплого пола </p>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5">
+              <div class="calculator-renge warming-renge">
+                <div class="calculator-block">
+                  <a href="#form-gager" class="popup" data-effect="mfp-move-horizontal">Как узнать размер?</a>
+                  <div class=" calculator-img">
+                    <img src="image/calcu5.png">
+                  </div>
+                  <div class="range-right">
+                    <div class="range-slider">
+                      <div class="range-value-right">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="7000" >
+                        <p class="height">Высота</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="range-botto">
+                    <div class="range-slider">
+                      <div class="range-value-bottom">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="7000" >
+                        <p class="width">Ширина</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="calculator-price">
+                  <div class="price-calculator-wrapper">
+                    <div class="calculator-price-size">
+                      <h2>В рассрочку</h2>
+                      <p>384 <span>руб/месяц</span></p>
+                      <h2>Сушка для белья в подарок!</h2>
+                    </div>
+                    <div class="calculator-total price-total">
+                      <div class="calculator-price-size">
+                        <h2>В рассрочку</h2>
+                        <p>3 840 <span>руб</span></p>
+                      </div>
+                      <div class="calculator-basket">
+                        <a href="#baskets-add"  class="popup-baskets" data-effect="mfp-move-from-top">Добавить в корзину </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tabs-child3-3" class="tab-content">
+          <div class="row no-gutters tabs-child-contain">
+            <div class="col-xl-7">
+              <div class="calculator-info">
+                <div class="warning">
+                   <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <div class="warming-item">
+                         <div class="product-tabs-img">
+                      <img src="image/item9.png">
+                    </div>
+                    <div class="product-tabs-info">
+                      <p>Утепление</p>
+                    </div>
+                      </div>
+                   </label>
+                 </div>
+                <div class="title-windows">
+                  <p>Покрытие пола </p>
+                </div>
+                <div class="glazing-wrapper ">
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor" >
+                      <span class="checkmark"></span>
+                      <p>Фанера</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor">
+                      <span class="checkmark"></span>
+                      <p>Шпунт</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor" >
+                      <span class="checkmark"></span>
+                      <p>Обрезная доска</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Отделка пола</p>
+                </div>
+                <div class="glazing-wrapper ">
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor1" >
+                      <span class="checkmark"></span>
+                      <p>Линолеум</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor1" >
+                      <span class="checkmark"></span>
+                      <p>Ламинат</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Изготовление балконного шкафа</p>
+                </div>
+                <div class="glazing-wrapper ">
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor2">
+                      <span class="checkmark"></span>
+                      <p>Маленький</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor2">
+                      <span class="checkmark"></span>
+                      <p>Большой</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Дополнительные услуги</p>
+                </div>
+                <div class="extra">
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Установка светильников </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Установка розетки </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Установка теплого пола </p>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5">
+              <div class="calculator-renge warming-renge">
+                <div class="calculator-block">
+                  <a href="#form-gager" class="popup" data-effect="mfp-move-horizontal">Как узнать размер?</a>
+                  <div class=" calculator-img">
+                    <img src="image/calcu5.png">
+                  </div>
+                  <div class="range-right">
+                    <div class="range-slider">
+                      <div class="range-value-right">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="7000" >
+                        <p class="height">Высота</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="range-botto">
+                    <div class="range-slider">
+                      <div class="range-value-bottom">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="7000" >
+                        <p class="width">Ширина</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="calculator-price">
+                  <div class="price-calculator-wrapper">
+                    <div class="calculator-price-size">
+                      <h2>В рассрочку</h2>
+                      <p>384 <span>руб/месяц</span></p>
+                      <h2>Сушка для белья в подарок!</h2>
+                    </div>
+                    <div class="calculator-total price-total">
+                      <div class="calculator-price-size">
+                        <h2>В рассрочку</h2>
+                        <p>3 840 <span>руб</span></p>
+                      </div>
+                      <div class="calculator-basket">
+                        <a href="#baskets-add"  class="popup-baskets" data-effect="mfp-move-from-top">Добавить в корзину </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tabs-child3-4" class="tab-content">
+          <div class="row no-gutters tabs-child-contain">
+            <div class="col-xl-7">
+              <div class="calculator-info">
+                <div class="warning">
+                   <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <div class="warming-item">
+                         <div class="product-tabs-img">
+                      <img src="image/item9.png">
+                    </div>
+                    <div class="product-tabs-info">
+                      <p>Утепление</p>
+                    </div>
+                      </div>
+                   </label>
+                 </div>
+                <div class="title-windows">
+                  <p>Покрытие пола </p>
+                </div>
+                <div class="glazing-wrapper ">
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor" >
+                      <span class="checkmark"></span>
+                      <p>Фанера</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor">
+                      <span class="checkmark"></span>
+                      <p>Шпунт</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor" >
+                      <span class="checkmark"></span>
+                      <p>Обрезная доска</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Отделка пола</p>
+                </div>
+                <div class="glazing-wrapper ">
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor1" >
+                      <span class="checkmark"></span>
+                      <p>Линолеум</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor1" >
+                      <span class="checkmark"></span>
+                      <p>Ламинат</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Изготовление балконного шкафа</p>
+                </div>
+                <div class="glazing-wrapper ">
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor2">
+                      <span class="checkmark"></span>
+                      <p>Маленький</p>
+                    </label>
+                  </div>
+                  <div class="design-item glazing-item">
+                    <label >
+                      <input type="radio"  name="floor2">
+                      <span class="checkmark"></span>
+                      <p>Большой</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="title-windows">
+                  <p>Дополнительные услуги</p>
+                </div>
+                <div class="extra">
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Установка светильников </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Установка розетки </p>
+                    </label>
+                  </div>
+                  <div class="installation-item extra-item">
+                    <label class="installation-type">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <p>Установка теплого пола </p>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5">
+              <div class="calculator-renge warming-renge">
+                <div class="calculator-block">
+                  <a href="#form-gager" class="popup" data-effect="mfp-move-horizontal">Как узнать размер?</a>
+                  <div class=" calculator-img">
+                    <img src="image/calcu5.png">
+                  </div>
+                  <div class="range-right">
+                    <div class="range-slider">
+                      <div class="range-value-right">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="7000" >
+                        <p class="height">Высота</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="range-botto">
+                    <div class="range-slider">
+                      <div class="range-value-bottom">
+                        <input class="range-slider__range" type="range" value="0" min="0" max="7000" >
+                        <p class="width">Ширина</p>
+                        <span class="range-slider__value">
+                          <p class="">0 <span> мм</span></p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="calculator-price">
+                  <div class="price-calculator-wrapper">
+                    <div class="calculator-price-size">
+                      <h2>В рассрочку</h2>
+                      <p>384 <span>руб/месяц</span></p>
+                      <h2>Сушка для белья в подарок!</h2>
+                    </div>
+                    <div class="calculator-total price-total">
+                      <div class="calculator-price-size">
+                        <h2>В рассрочку</h2>
+                        <p>3 840 <span>руб</span></p>
+                      </div>
+                      <div class="calculator-basket">
+                        <a href="#baskets-add"  class="popup-baskets" data-effect="mfp-move-from-top">Добавить в корзину </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="company">
+    <div class="container ">
+      <div class="row  align-items-center">
+        <div class="col-xl-4">
+          <div class="info-company">
+            <h2>ДОБРО ПОЖАЛОВАТЬ В МИР ОКОН! </h2>
+            <p>Компания <span><a href="index.html"> «Авиллон» </a></span> производит и устанавливает окна по самым низким ценам в Челябинску
+            и Челябинской области</p>
+            <p>Благодаря собственному производству завод пластиковых окон <span><a href="index.html">«Авиллон»</a></span> уже более 10 лет является самой надежной и стабильной.</p>
+          </div>
+        </div>
+        <div class="col-xl-8 ">
+          <div class="company-services green-bg">
+            <div class="row">
+              <div class="col-xl offset-xl-1  col-lg-4 col-md-4 col-sm-12 col-12  company-services-item">
+                <img src="image/calculator.png">
+                <p>Калькулятор<br> расчета примерной<br> стоимости</p>
+                <a href="calculator.html"></a>
+              </div>
+              <div class="col-xl col-lg-4 col-md-4 col-sm-12 col-12 company-services-item">
+                <img src="image/worker-main.png">
+                <p>Вызовите<br> замерщика на дом<br> бесплатно</p>
+                <a href="#form-gager" class="popup" data-effect="mfp-move-horizontal"></a>
+              </div>
+              <div class="col-xl col-lg-4 col-md-4 col-sm-12 col-12 company-services-item">
+                <img src="image/support.png">
+                <p>Закажите обратный<br> звонок и мы вам<br> перезвоним</p>
+                <a href="#form" class="popup" data-effect="mfp-move-horizontal"></a>
+              </div>
+              <div class="col-xl-1"></div>
+            </div>
+          </div>
+       </div>
+     </div>
+   </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl footer-nav">
+          <ul>
+            <li><a href="windows.html">Пластиковые окна </a></li>
+            <li><a href="balcony.html">Остекление балконов </a></li>
+            <li><a href="glazing.html">Остекление коттеджей</a></li>
+            <li><a href="door.html">Двери </a></li>
+            <li><a href="balcons-finishes.html">Отделка балконов </a></li>
+            <li><a href="ceilings.html">Натяжные потолки </a></li>
+            <li><a href="jalousie.html">Жалюзи </a></li>
+          </ul>
+        </div>
+
+         <div class="col-xl footer-nav">
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="calculator.html">Калькулятор расчета </a></li>
+            <li><a href="company.html">О компании</a></li>
+            <li><a href="ready-work.html">Готовые работы </a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="col-xl footer-nav">
+          <ul>
+            <li><a href="Special.html">Акции</a></li>
+            <li><a href="installment.html">Рассрочка </a></li>
+            <li><a href="credit.html"> Кредит </a></li>
+            <li><a href="#form-gager" class="popup" data-effect="mfp-move-horizontal">Вызов замерщика</a></li>
+            <li><a href="certificate.html">Сертификаты</a></li>
+          </ul>
+        </div>
+        <div class="col-xl ">
+          <div class="map-info footer-block">
+            <div class="img-info">
+              <img src="image/map.png">
+            </div>
+            <div class="block-desc">
+              <p>Город Челябинск</p>
+              <h2>Отрадная, 25, оф. 308</h2>
+              <a href="#">Показать на карте</a>
+            </div>
+          </div>
+          <div class=" phone-info footer-block">
+            <div class="img-info">
+              <img src="image/support2.png">
+            </div>
+            <div class="block-desc">
+              <p>Без выходных: 10.00 - 20.00</p>
+              <h2>+7 (351) 225-41-06</h2>
+              <a href="#form" class="popup" data-effect="mfp-move-horizontal">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="phone-info footer-block">
+            <div class="img-info">
+              <img src="image/support2.png">
+            </div>
+            <div class="block-desc">
+              <p>Без выходных: 10.00 - 20.00</p>
+              <h2>+7 (351) 776-46-0</h2>
+              <a href="#form" class="popup" data-effect="mfp-move-horizontal">Заказать звонок</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="company-logo">
+      <div class="container">
+         <a href="https://reactive-promotion.ru" target="_blanck"><img src="image/RP.png"></a>
+      </div>
+    </div>
+  </footer>
+  <div class="hidden">
+    <form id="baskets" class="white-popup mfp-with-anim mfp-hide" >
+      <div class="form-wrapper">
+        <div class="form-start">
+          <div class="form-title">
+            <button title="Close (Esc)" type="button" class="mfp-close finish-button">×</button>
+            <h2>Корзина</h2>
+          </div>
+          <div class="content-form">
+            <div class="baskets-form-wrapper">
+              <div class="baskets-form-item">
+                <div class="baskets-product">
+                  <div class="baskets-product-img">
+                    <img src="image/windows/icon3.png">
+                  </div>
+                  <div class="baskets-product-info">
+                    <h2>Двухстворчатое окно </h2>
+                    <p>1400 x 1350</p>
+                    <p>Стеклопакет: Двухкамерный</p>
+                    <P>Подоконник, отлив, Монтаж</P>
+                  </div>
+                </div>
+                <div class="basket-price">
+                  <p>7 800 руб.</p>
+                  <a href="#">×</a>
+                </div>
+              </div>
+              <div class="baskets-form-item">
+                <div class="baskets-product">
+                  <div class="baskets-product-img">
+                    <img src="image/windows/icon3.png">
+                  </div>
+                  <div class="baskets-product-info">
+                    <h2>Двухстворчатое окно </h2>
+                    <p>1400 x 1350</p>
+                    <p>Стеклопакет: Двухкамерный</p>
+                    <P>Подоконник, отлив, Монтаж</P>
+                  </div>
+                </div>
+                <div class="basket-price">
+                  <p>7 800 руб.</p>
+                  <a href="#">×</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="baskets-total">
+            <p><span>Итого</span> 15 600 <span>руб</span></p>
+          </div>
+          <div class="baskets-button">
+            <button type="button" onClick="closePopup();">Добавить еще</button>
+            <a href="#baskets-order" class="popup" data-effect="mfp-move-horizontal">Заказать</a>
+          </div>
+        </div>
+        <div class="finish-form">
+          <button title="Close (Esc)" type="button" class="mfp-close finish-button">×</button>
+          <img src="image/forms/support.png">
+          <h2>Заявка принята!</h2>
+          <p>Ожидайте звонка для уточнения времени </p>
+          <button type="button" onClick="closePopup();">Закрыть</button>
+        </div>
+      </div>
+    </form>
+    <form  id="form" class="mfp-with-anim mfp-hide">
+      <div class="form-wrapper">
+        <div class="form-start">
+          <div class="form-title">
+            <button title="Close (Esc)" type="button" class="mfp-close finish-button">×</button>
+            <h2>Заказать звонок</h2>
+            <p>Мы позвоним вам в ближайшее время</p>
+          </div>
+          <div class="content-form">
+            <label>
+              <p>Имя</p>
+              <input type="text" name="name" required placeholder="Ваше имя">
+            </label>
+             <label>
+              <p>Телефон</p>
+              <input type="text" name="tel" required placeholder="Ваш номер телефона">
+            </label>
+          </div>
+          <div class="form-btn">
+            <button >Заказать</button>
+          </div>
+        </div>
+        <div class="finish-form">
+          <button title="Close (Esc)" type="button" class="mfp-close finish-button">×</button>
+          <img src="image/forms/support.png">
+          <h2>Заявка принята!</h2>
+          <p>Ожидайте звонка для уточнения времени </p>
+          <button type="button" onClick="closePopup();">Закрыть</button>
+        </div>
+      </div>
+    </form>
+    <form  id="form-gager" class="mfp-with-anim mfp-hide">
+      <div class="form-wrapper">
+        <div class="form-start">
+          <div class="form-title">
+            <button title="Close (Esc)" type="button" class="mfp-close finish-button">×</button>
+            <h2>Заказать звонок</h2>
+            <p>Мы позвоним вам в ближайшее время</p>
+          </div>
+          <div class="content-form">
+            <label>
+              <p>Имя</p>
+              <input type="text" name="name" required placeholder="Ваше имя">
+            </label>
+             <label>
+              <p>Телефон</p>
+              <input type="text" name="tel" required placeholder="Ваш номер телефона">
+            </label>
+          </div>
+          <div class="form-btn">
+            <button >Заказать</button>
+          </div>
+        </div>
+        <div class="finish-form">
+          <button title="Close (Esc)" type="button" class="mfp-close finish-button">×</button>
+          <img src="image/forms/support.png">
+          <h2>Заявка принята!</h2>
+          <p>Ожидайте звонка для уточнения времени </p>
+          <button type="button" onClick="closePopup();">Закрыть</button>
+        </div>
+      </div>
+    </form>
+    <form  id="baskets-order" class="mfp-with-anim mfp-hide">
+      <div class="form-wrapper">
+        <div class="form-start">
+          <div class="form-title">
+            <button title="Close (Esc)" type="button" class="mfp-close finish-button">×</button>
+            <h2>Оформление заказа</h2>
+            <p>Мы позвоним вам для уточнения деталей</p>
+          </div>
+          <div class="content-form">
+            <label>
+              <p>Имя</p>
+              <input type="text" name="name" required placeholder="Ваше имя">
+            </label>
+             <label>
+              <p>Телефон</p>
+              <input type="text" name="tel" required placeholder="Ваш номер телефона">
+            </label>
+          </div>
+          <div class="form-btn">
+            <button >Заказать</button>
+          </div>
+        </div>
+        <div class="finish-form">
+          <button title="Close (Esc)" type="button" class="mfp-close finish-button">×</button>
+          <img src="image/forms/support.png">
+          <h2>Заявка принята!</h2>
+          <p>Ожидайте звонка для уточнения времени </p>
+          <button type="button" onClick="closePopup();">Закрыть</button>
+        </div>
+      </div>
+    </form>
+    <form id="baskets-add" class="white-popup mfp-with-anim mfp-hide" >
+      <div class="form-wrapper">
+        <div class="form-start">
+          <div class="form-title">
+            <button title="Close (Esc)" type="button" class="mfp-close finish-button">×</button>
+            <h2>Добавлено в корзина</h2>
+          </div>
+          <div class="content-form">
+            <div class="baskets-form-wrapper">
+              <div class="baskets-form-item">
+                <div class="baskets-product">
+                  <div class="baskets-product-img">
+                    <img src="image/windows/icon3.png">
+                  </div>
+                  <div class="baskets-product-info">
+                    <h2>Двухстворчатое окно </h2>
+                    <p>1400 x 1350</p>
+                    <p>Стеклопакет: Двухкамерный</p>
+                    <P>Подоконник, отлив, Монтаж</P>
+                  </div>
+                </div>
+                <div class="basket-price">
+                  <p>7 800 руб.</p>
+                  <a href="#">×</a>
+                </div>
+              </div>
+              <div class="baskets-form-item">
+                <div class="baskets-product">
+                  <div class="baskets-product-img">
+                    <img src="image/windows/icon3.png">
+                  </div>
+                  <div class="baskets-product-info">
+                    <h2>Двухстворчатое окно </h2>
+                    <p>1400 x 1350</p>
+                    <p>Стеклопакет: Двухкамерный</p>
+                    <P>Подоконник, отлив, Монтаж</P>
+                  </div>
+                </div>
+                <div class="basket-price">
+                  <p>7 800 руб.</p>
+                  <a href="#">×</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="baskets-total">
+            <p><span>Итого</span> 15 600 <span>руб</span></p>
+          </div>
+          <div class="baskets-button">
+            <button type="button" onClick="closePopup();">Добавить еще</button>
+            <a href="#baskets-order" class="popup" data-effect="mfp-move-horizontal">Заказать</a>
+          </div>          
+        </div>
+        <div class="finish-form">
+          <button title="Close (Esc)" type="button" class="mfp-close finish-button">×</button>
+          <img src="image/forms/support.png">
+          <h2>Заявка принята!</h2>
+          <p>Ожидайте звонка для уточнения времени </p>
+          <button type="button" onClick="closePopup();">Закрыть</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="libs/jquery/jquery.js"></script>
+  <script src="libs/MagnificPopup/dist/jquery.magnific-popup.min.js"></script>
+  <script src="javascript/popup.js"></script>
+  <script src="javascript/tabs.js"></script>
+  <script src="javascript/range.js"></script>
+  <script src="javascript/menuFixet.js"></script>
+</body>
+</html>

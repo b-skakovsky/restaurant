@@ -1,0 +1,89 @@
+.title-page-block h2 {
+	font-size: 30px;
+	line-height: 47px;
+	font-family:PT_Sans-Web-Bold;
+	color: rgba(0, 0, 0, 0.9);
+	padding: 35px 0;
+}
+.title-page-block{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+a.questions-first{
+	font-size: 16px;
+	line-height: 29px;
+	text-align: right;
+	margin: 0 25px 0 0;
+	color: rgba(0, 0, 0, 0.9);
+}
+a.questions-second{
+	width: 230px;
+	height: 50px;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 46px;
+	font-family:PT_Sans-Web-Bold;
+	border:1px solid #9C1111;
+	color: #9C1111;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+} 
+.questions-wrapper{border-bottom: 1px solid rgba(0, 0, 0, 0.1);margin-top: 20px;}
+.questions-title p{
+	font-size: 16px;
+	line-height: 29px;
+	color: #9C1111;
+	position: relative;
+}
+
+.questions-title p span{
+	font-size: 16px;
+	line-height: 29px;
+
+	color: #999999;
+}
+.questions-text p{
+	font-size: 16px;
+	line-height: 29px;
+	color: rgba(0, 0, 0, 0.9);
+	margin-bottom: 20px;
+}
+.questions-admin {
+	margin: 9px 0 0 50px;
+	position: relative;
+}
+.questions-admin:after{
+	content: url(../image/Ellipse.png);
+	position: absolute;
+	left: -33px;
+	top: -8px;
+}
+.nav-page{
+	text-align: center;
+	margin: 20px 0 0 0;
+	position: relative;
+}
+.nav-page ul li{
+	display: inline-block;
+}
+.nav-page ul li a i{
+	color: #9C1111;
+	font-size: 14px;
+}
+.nav-page ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	line-height: normal;
+	font-family:PT_Sans-Web-Bold;
+	color: #9C1111;
+	transition: all 0.3s;
+	border: 1px solid rgba(153, 153, 153, 0);
+	padding: 3px 6px;
+	border-radius: 10px;
+}
+.nav-page ul li a:hover{
+	color: #999999; 
+	border: 1px solid #999999;
+}

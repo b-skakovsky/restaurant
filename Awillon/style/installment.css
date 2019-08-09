@@ -1,0 +1,147 @@
+.title-page-block h2 {
+font-size: 30px;
+line-height: 47px;
+	font-family:PT_Sans-Web-Bold;
+color: rgba(0, 0, 0, 0.9);
+padding: 35px 0;
+}
+section.installment-document{
+	margin: 30px 0 0 0;
+}
+.title-page-block{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+a.questions-first{
+	font-size: 16px;
+line-height: 29px;
+text-align: right;
+margin: 0 25px 0 0;
+color: rgba(0, 0, 0, 0.9);
+}
+a.questions-second{
+	width: 230px;
+height: 50px;
+display: inline-block;
+font-size: 16px;
+line-height: 46px;
+	font-family:PT_Sans-Web-Bold;
+border:1px solid #9C1111;
+color: #9C1111;
+text-decoration: none;
+text-align: center;
+border-radius: 5px;
+} 
+.installment-desc{
+	display: flex;
+	align-items: center;
+}
+.installment-desc h2{
+	font-size: 80px;
+line-height: 124px;
+	font-family:PT_Sans-Web-Bold;
+color: #9C1111;
+margin: 0 30px 0 0;
+}
+.installment-desc h2 span{
+	font-size: 30px;
+}
+.installment-desc p{
+	font-size: 30px;
+line-height: 47px;
+	font-family:PT_Sans-Web-Bold;
+color: rgba(0, 0, 0, 0.9);
+}
+.installment-desc p span{
+	color: #9C1111;
+}
+.installment-item h2{
+	font-size: 38px;
+line-height: 59px;
+	font-family:PT_Sans-Web-Bold;
+color: #9C1111;
+}
+.installment-item h3{
+	font-size: 20px;
+line-height: 34px;
+	font-family:PT_Sans-Web-Bold;
+color: rgba(0, 0, 0, 0.9);
+}
+.installment-item p{
+	font-weight: normal;
+font-size: 16px;
+line-height: 29px;
+
+color: rgba(0, 0, 0, 0.9);
+}
+.document-left h2,
+.document-right h2{
+	font-size: 20px;
+line-height: 34px;
+	font-family:PT_Sans-Web-Bold;
+color: rgba(0, 0, 0, 0.9);
+}
+/*.document-left ul li:first-letter,
+.document-right ul li:first-letter{
+	margin: 0 0 0 20px;
+
+}*/
+.document-left ul li,
+.document-right ul li{
+	text-decoration: none;
+	list-style-type: none;
+	position: relative;
+	font-size: 16px;
+	line-height: 29px;
+	margin: 0 0 0 15px;
+	color: rgba(0, 0, 0, 0.9);
+}
+.document-left ul li:before,
+.document-right ul li:before{
+	    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #9C1111;
+    top: 12px;
+    left: -15px;
+}
+.document-right ul li{
+	margin: 0 0 0 15px;
+}
+.document-right ul li ul li:before{
+	display: none;
+}
+.partners h2{
+	font-size: 20px;
+	line-height: 34px;
+	font-family:PT_Sans-Web-Bold;
+	color: rgba(0, 0, 0, 0.9);
+	margin: 20px 0 0 0;
+}
+.partners-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 20px 0 50px 0;
+}
+
+@media only screen and (max-width : 1200px){
+	.title-page-block{
+		flex-direction: column;
+	}
+}
+@media only screen and (max-width : 992px){
+
+}
+@media only screen and (max-width : 768px){
+
+}
+@media only screen and (max-width : 480px){
+
+}
+@media only screen and (max-width : 320px){
+  
+}
